@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MiMenu</string>
+    <string name="opcion1_menu_main">Opcion 1</string>
+    <string name="opcion2_menu_main">Opcion 2</string>
+    <string name="opcion2_1_menu_main">Opcion 2 - 1</string>
+    <string name="opcion2_2_menu_main">Opcion 2 - 2</string>
+</resources>

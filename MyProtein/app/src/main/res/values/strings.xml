@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MyProtein</string>
+
+    <string name="app_main_text">SUPLEMENTACION ONLINE</string>
+    <string name="opcion1_menu_main">Contacto</string>
+    <string name="opcion2_menu_main">Acerca de</string>
+    <string name="opcion2_1_menu_main">Instagram</string>
+    <string name="opcion2_2_menu_main">Facebook</string>
+
+    <string name="cabecera_listado">SUPLEMENTOS</string>
+    <string name="whey_protein">Whey protein</string>
+    <string name="descripcion_whey_protein">Apoya crecimiento y el mantenimiento de tu masa muscular</string>
+    <string name="informacion_whey_protein">Esta proteína cómoda y de gran calidad ayuda a desarrollar y mantener los músculos importantes. Solo contiene 1,9 g de grasa, 1 g de carbohidratos y 103 calorías por ración, y está aquí para ayudarte a conseguir todos tus objetivos fitness.</string>
+
+
+    <string name="ganadores_peso">Ganadores de peso</string>
+    <string name="descripcion_ganadores_peso">Recomendado para gente que quiera aumentar de peso</string>
+    <string name="informacion_ganadores_peso">Repleto de una mezcla de proteínas de gran calidad y de digestión rápida y lenta, que te ayudan aumentar y a mantener una musculatura considerable. Esto no solo disparará tu consumo de proteína, sino que te ayudará a mantenerla a lo largo del día.</string>
+
+
+    <string name="pre_entrenos">Pre-entrenos</string>
+    <string name="descripcion_pre_entrenos">Ayuda a sacar el máximo provecho de cada sesión</string>
+    <string name="informacion_pre_entrenos">Esta mezcla contiene cafeína, que ayuda a mejorar la resistencia y la capacidad para que puedas sacar el máximo provecho de cada sesión y superar tus límites. También te ayudará a mantenerte alerta y concentrado durante el entrenamiento, acercándote más a todas tus metas, incluso después de un largo día.</string>
+
+
+    <string name="multivitaminicos">Multivitamínicos</string>
+    <string name="descripcion_multivitaminicos"> Nutrientes necesarios que tu cuerpo necesita</string>
+    <string name="informacion_multivitaminicos"> Son el refuerzo ideal para la dieta gracias a su más que generosa cantidad de vitaminas, entre las que se incluyen la vitamina C para reforzar el sistema inmune y la biotina para mantener la salud del pelo y la piel.</string>
+
+
+    <string name="snack">Snacks y barritas</string>
+    <string name="descripcion_snack"> Una opción para recargar las pilas después del ejercicio</string>
+    <string name="informacion_snack"> Una opción para recargar las pilas después del ejercicio, snacks de chocolate están repletos de proteína de alta calidad y ayudan al desarrollo y mantenimiento de los músculos fundamentales, sean cuales sean tus objetivos de fitness.</string>
+
+
+    <string name="omega">Grasas esenciales</string>
+    <string name="descripcion_omega"> Constituyen una parte muy importante de una dieta equilibrada</string>
+    <string name="informacion_omega"> El Omega-3 Esencial contiene EPA (ácido eicosapentaenoico) y DHA (ácido docosahexaenoico), dos compuestos que desempeñan un papel importante en la salud cardiaca. En consecuencia, este suplemento resulta ideal tanto para mejorar tu bienestar en general, como para conseguir tus objetivos fitness.</string>
+
+
+</resources>

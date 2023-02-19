@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ComponentesMaterialDesign.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/barraNuevo"
+        android:title="Añadir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/barraEditar"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Editar"
+        app:showAsAction="always" />
+</menu>
