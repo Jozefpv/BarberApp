@@ -43,20 +43,15 @@ public class ListaContactosAdapter extends RecyclerView.Adapter<ListaContactosAd
         holder.viewCorreo.setText(listaContactos.get(position).getCorreo_electornico());
     }
 
-
-
     @Override
     public int getItemCount() {
         return listaContactos.size();
     }
 
     public class ContactoViewHolder extends RecyclerView.ViewHolder {
-
         TextView viewNombre, viewTelefono, viewCorreo;
-
         public ContactoViewHolder(@NonNull View itemView) {
             super(itemView);
-
             viewNombre = itemView.findViewById(R.id.viewNombre);
             viewTelefono = itemView.findViewById(R.id.viewTelefono);
             viewCorreo = itemView.findViewById(R.id.viewCorreo);

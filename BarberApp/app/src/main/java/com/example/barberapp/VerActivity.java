@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
@@ -14,6 +15,7 @@ import android.widget.EditText;
 import com.example.barberapp.db.DbContactos;
 import com.example.barberapp.entidades.Contactos;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.textfield.TextInputLayout;
 
 public class VerActivity extends AppCompatActivity {
 
@@ -21,12 +23,15 @@ public class VerActivity extends AppCompatActivity {
     Button btnGuarda;
     FloatingActionButton fabEditar, fabEliminar;
 
+
+
+
     Contactos contacto;
     int id = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ver);
+        setContentView(R.layout.visualizar);
 
         txtNombre = findViewById(R.id.txtNombre);
         txtTelefono = findViewById(R.id.txtTelefono);
@@ -72,7 +77,7 @@ public class VerActivity extends AppCompatActivity {
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(VerActivity.this);
                 builder.setMessage("¿Desea eliminar este contacto?")
-                        .setPositiveButton("SI", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Si", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
 
@@ -81,7 +86,7 @@ public class VerActivity extends AppCompatActivity {
                                 }
                             }
                         })
-                        .setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
 
@@ -92,7 +97,7 @@ public class VerActivity extends AppCompatActivity {
     }
 
     private void lista(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, ReservasActivity.class);
         startActivity(intent);
     }
     }

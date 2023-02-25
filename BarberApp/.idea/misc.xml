@@ -7,21 +7,27 @@
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/barberlogo_background.xml" value="0.2645" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/buttonstyle.xml" value="0.177" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.177" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/ic_baseline_phone.xml" value="0.1865" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/ic_contacto.xml" value="0.1865" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/menu.xml" value="0.1" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/more.xml" value="0.1005" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/nav_home.xml" value="0.2705" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/nav_logout.xml" value="0.254" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/nav_setting.xml" value="0.245" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/nav_sobre.xml" value="0.254" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/drawable/splash_screen.xml" value="0.1425" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_agregar_reserva.xml" value="0.33" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_ajustes.xml" value="0.2109375" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_card.xml" value="0.1671875" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_dashboard.xml" value="0.12436676798378926" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_editar.xml" value="0.2" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_editar_reserva.xml" value="0.18" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_main.xml" value="0.19915254237288135" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_media.xml" value="0.259375" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_menu.xml" value="0.264" />
-        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_nueva.xml" value="0.1" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_nueva.xml" value="0.2" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_prueba.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_reservas.xml" value="0.259375" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_setting.xml" value="0.264" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_ultima.xml" value="0.1" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/activity_ver.xml" value="0.264" />
@@ -50,6 +56,7 @@
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/menu_toolbar.xml" value="0.264" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/nav_header.xml" value="0.21965579710144928" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/setting_content.xml" value="0.1" />
+        <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/layout/visualizar.xml" value="0.2078125" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/menu/menu_header.xml" value="0.259375" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/menu/menu_navegacion.xml" value="0.259375" />
         <entry key="..\:/Users/Jozef/AndroidStudioProjects/BarberApp/app/src/main/res/menu/nav_menu.xml" value="0.264" />

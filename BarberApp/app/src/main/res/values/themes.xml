@@ -22,4 +22,9 @@
     <style name="Theme.BarberApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.BarberApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.BarberApp">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
 </resources>

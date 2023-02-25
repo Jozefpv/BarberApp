@@ -3,24 +3,25 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/drawer_layout"
-    tools:context=".Dashboard">
+    tools:context=".AjustesActivity">
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
         <include
             layout="@layout/menu_toolbar"/>
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Dashboard"
-            android:textSize="50sp"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:gravity="center"/>
+            android:id="@+id/resolutionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24dp"
+             />
+
+
     </LinearLayout>
     <RelativeLayout
         android:layout_width="300dp"
@@ -29,6 +30,5 @@
         <include layout="@layout/menu_navigation_drawer"/>
 
     </RelativeLayout>
-
 
 </androidx.drawerlayout.widget.DrawerLayout>

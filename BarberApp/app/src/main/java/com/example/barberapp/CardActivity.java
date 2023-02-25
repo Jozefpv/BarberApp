@@ -28,11 +28,11 @@ public class CardActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         DatosPeinado[] datosPeinados = new DatosPeinado[] {
-                new DatosPeinado("clasico", "corte normal", R.drawable.clasico),
-                new DatosPeinado("largo", "cabellos largos", R.drawable.largo),
-                new DatosPeinado("rapado", "corte rapado", R.drawable.rapado),
-                new DatosPeinado("rastas", "corte con dreads", R.drawable.dreads),
-                new DatosPeinado("afro", "corte afro", R.drawable.afro)
+                new DatosPeinado("Clásico", "Peinado formal y elegante adecuado para todo tipo de cabellos", R.drawable.clasico),
+                new DatosPeinado("Largo", "Peinado para cabellos largos y alisados", R.drawable.largo),
+                new DatosPeinado("Rapado", "Peinado estilo militar para cabellos extremadamente corto", R.drawable.rapado),
+                new DatosPeinado("Dreadlocks", "Peinado formado por cabello enredado y tejido, característico de los rastafaris.", R.drawable.dreads),
+                new DatosPeinado("Afro", "Peinado propio de los cabellos rizados y secos", R.drawable.afro)
 
         };
 
@@ -59,9 +59,11 @@ public class CardActivity extends AppCompatActivity {
         MenuActivity.redirecActivity(this, MediaActivity.class);
     }
 
+    public void clickAjustes(View view){MenuActivity.redirecActivity(this, AjustesActivity.class);}
 
-    public void clickAboutUs(View view){
-        MenuActivity.redirecActivity(this, Setting.class);
+
+    public void clickReservas(View view){
+        MenuActivity.redirecActivity(this, ReservasActivity.class);
     }
 
     public void ClickLogout(View view){

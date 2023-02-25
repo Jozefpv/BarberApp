@@ -11,19 +11,20 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.example.barberapp.entidades.Contactos;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class MenuActivity extends AppCompatActivity {
-
     DrawerLayout drawerLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
         drawerLayout = findViewById(R.id.drawer);
-
-
     }
 
     public void ClickMenu(View view){
@@ -52,21 +53,33 @@ public class MenuActivity extends AppCompatActivity {
         redirecActivity(this, CardActivity.class);
     }
 
-    public void clickAboutUs(View view){
-        redirecActivity(this, Setting.class);
+    public void clickReservas(View view){
+        redirecActivity(this, ReservasActivity.class);
     }
 
     public void clickMedia(View view){
         redirecActivity(this, MediaActivity.class);
     }
 
+    public void clickAjustes(View view){
+        redirecActivity(this, AjustesActivity.class);
+    }
+
     public void clickLogout(View view){
         logout(this);
     }
 
+    public static void redirecActivity(Activity activity, Class Class) {
+        //Intent intent = new Intent(activity,Class);
+        //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        activity.startActivity(new Intent(activity,Class){{
+            setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        }});
+    }
+
     public static void logout(Activity activity){
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setTitle("Logout");
+        builder.setTitle("Salir");
         builder.setMessage("¿Está seguro que desea salir?");
         builder.setPositiveButton("Si", new DialogInterface.OnClickListener() {
             @Override
@@ -76,12 +89,6 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-    }
-
-    public static void redirecActivity(Activity activity, Class Class) {
-    Intent intent = new Intent(activity,Class);
-    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-    activity.startActivity(intent);
     }
 
     @Override

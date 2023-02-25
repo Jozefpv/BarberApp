@@ -11,11 +11,11 @@
         android:layout_height="120dp"
         android:layout_margin="17dp"
         android:onClick="ClickLogo"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/icon"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cambiar texto"
+        android:text="@string/menu"
         android:textStyle="bold"
         android:textSize="22sp"
         android:textColor="@color/black"
@@ -38,7 +38,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Home"
+            android:text="@string/app_menu_inicio_lowercase"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
         <ImageView
@@ -55,47 +55,45 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
+        android:onClick="clickReservas">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reservas"
+            android:padding="12dp"
+            android:layout_marginStart="17dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_baseline_book"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
         android:onClick="clickCards">
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Card list"
+            android:text="@string/peinados"
             android:padding="12dp"
             android:layout_marginStart="17dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
-            android:src="@drawable/nav_setting"
+            android:src="@drawable/ic_cut"
             />
-
-
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:onClick="clickAboutUs">
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Crud"
-            android:padding="12dp"
-            android:layout_marginStart="17dp"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
-            android:src="@drawable/nav_setting"
-            />
-
-
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -107,14 +105,37 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Media"
+            android:text="@string/media"
             android:padding="12dp"
             android:layout_marginStart="17dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
-            android:src="@drawable/nav_setting"
+            android:src="@drawable/ic_voice"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="clickAjustes">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ajustes"
+            android:padding="12dp"
+            android:layout_marginStart="17dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/ic_setting"
             />
 
 
@@ -130,20 +151,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Logout"
+            android:text="@string/logout"
             android:padding="12dp"
             android:layout_marginStart="17dp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
-            android:src="@drawable/nav_setting"
+            android:src="@drawable/ic_logout"
             />
-
-
     </LinearLayout>
-
-
-
-
 </LinearLayout>

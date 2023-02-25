@@ -1,24 +1,31 @@
 <resources>
+    <string name="app_name">BarberApp</string>
+    <string name="app_classic_barber">Classic Barber</string>
+    <string name="app_main_inicio">INICIO</string>
+    <string name="app_menu_inicio_lowercase">Inicio</string>
+    <string name="menu">Menú</string>
+    <string name="reservas">Reservas</string>
+    <string name="peinados">Peinados</string>
+    <string name="media">Media</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="logout">Salir</string>
+
+    <string name="descripcion_clasico">Peinado formal y elegante adecuado para todo tipo de cabellos</string>
+    <string name="descripcion_largo">Peinado para cabellos largos y alisados </string>
+    <string name="descripcion_rapado">Peinado estilo militar para cabellos extremadamente corto</string>
+    <string name="descripcion_dreadlocks">Peinado formado por cabello enredado y tejido, característico de los rastafaris. </string>
+    <string name="descripcion_afro">Peinado propio de los cabellos rizados y secos</string>
+
     <string name="hint_nombre">Nombre:</string>
     <string name="hint_telefono">Telefono:</string>
     <string name="hint_correo_electronico">Correo electronico:</string>
     <string name="btn_guarda">Guardar registro</string>
     <string name="menu_nuevo">Nuevo registro</string>
-    <string name="app_name">BarberApp</string>
-    <string name="inicio">INICIO</string>
-    <string name="iniciolower">Inicio</string>
-    <string name="open_nav">Abrir</string>
-    <string name="cerrar_nav">Cerrar</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_ajustes">Ajustes</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="title_activity_prueba">Prueba</string>
+    <string name="ubicacion">CALLE ANCHIETA 27, ESQUINA CON CALLE JUAN DE VERA, 38201 SAN CRISTÓBAL DE LA LAGUNA, SANTA CRUZ DE TENERIFE</string>
+    <string name="correo">INFO@BARBERSHOP.ES</string>
+    <string name="horario1">LUNES: 15:00/20:00</string>
+    <string name="horario2">MARTES – VIERNES: 08:30/13:00 – 16:00/20:00</string>
+    <string name="horario3">SÁBADOS: 09:00/14:00</string>
+    <string name="telefono">643325232</string>
 </resources>

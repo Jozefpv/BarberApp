@@ -16,8 +16,116 @@
         <include
             layout="@layout/menu_toolbar"/>
 
+        <ImageView
+            android:id="@+id/image_menu"
+            android:layout_width="match_parent"
+            android:layout_height="315dp"
+            android:src="@drawable/barberia" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_location"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ubicacion"
+            android:padding="12dp"
+            android:layout_marginStart="17dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_email"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/correo"
+                android:padding="12dp"
+                android:layout_marginStart="17dp"/>
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_time"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/horario1"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="12dp"
+                    android:layout_marginStart="17dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/horario2"
+                    android:paddingLeft="12dp"
+                    android:layout_marginStart="17dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/horario3"
+                    android:paddingLeft="12dp"
+                    android:paddingBottom="12dp"
+                    android:layout_marginStart="17dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_dialog_phone"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/telefono"
+                android:padding="12dp"
+                android:layout_marginStart="17dp"/>
+        </LinearLayout>
     </LinearLayout>
 
     <RelativeLayout
@@ -26,8 +134,7 @@
         android:background="@color/white"
         android:layout_gravity="start">
 
-        <include
-            layout="@layout/menu_navigation_drawer"/>
+        <include layout="@layout/menu_navigation_drawer" />
 
     </RelativeLayout>
 

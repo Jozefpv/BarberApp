@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,7 +27,11 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:labelFor="@+id/viewNombre"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
 
         <TextView
             android:id="@+id/viewTelefono"
@@ -40,22 +46,30 @@
             android:ems="10"
             android:inputType="phone"
             android:labelFor="@+id/viewTelefono"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
 
         <TextView
             android:id="@+id/viewCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hint_correo_electronico" />
+            android:text="Correo electronico:" />
 
         <EditText
             android:id="@+id/txtCorreoElectronico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:labelFor="@+id/viewCorreo"
-            android:textSize="18sp" />
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefono"
+            android:textSize="18sp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
 
         <Button
             android:id="@+id/btnGuarda"

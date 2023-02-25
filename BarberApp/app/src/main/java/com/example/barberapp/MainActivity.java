@@ -11,10 +11,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.SplashTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView imagen = (ImageView) findViewById(R.id.logoImage);
@@ -24,14 +23,11 @@ public class MainActivity extends AppCompatActivity {
         animacion.setRepeatCount(Animation.RESTART);
         imagen.startAnimation(animacion);
         boton.startAnimation(animacion);
-
-
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
     }
 
     public void onInicioAction(View view){
