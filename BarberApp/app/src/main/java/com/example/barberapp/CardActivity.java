@@ -1,5 +1,6 @@
 package com.example.barberapp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.barberapp.adaptadores.PeinadoAdapter;
 
 public class CardActivity extends AppCompatActivity {
 
@@ -39,6 +42,18 @@ public class CardActivity extends AppCompatActivity {
         PeinadoAdapter adapter = new PeinadoAdapter(datosPeinados, CardActivity.this);
         recyclerView.setAdapter(adapter);
     }
+    private void showAboutDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(getLayoutInflater().inflate(R.layout.dialogo, null))
+                .setPositiveButton(android.R.string.ok, null);
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void clickAcerca(View view){
+        showAboutDialog();
+    }
 
     public void ClickMenu(View view){
         MenuActivity.openDrawer(drawerLayout);
@@ -52,19 +67,15 @@ public class CardActivity extends AppCompatActivity {
         MenuActivity.redirecActivity(this, MenuActivity.class);
     }
 
-    public void clickDashboard(View view){
-        recreate();
-    }
+    public void clickCards(View view){recreate();}
+
     public void clickMedia(View view){
         MenuActivity.redirecActivity(this, MediaActivity.class);
     }
 
     public void clickAjustes(View view){MenuActivity.redirecActivity(this, AjustesActivity.class);}
 
-
-    public void clickReservas(View view){
-        MenuActivity.redirecActivity(this, ReservasActivity.class);
-    }
+    public void clickReservas(View view){MenuActivity.redirecActivity(this, ReservasActivity.class);}
 
     public void ClickLogout(View view){
         MenuActivity.logout(this);

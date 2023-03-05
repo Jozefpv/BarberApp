@@ -14,25 +14,70 @@
 
     <include
         layout="@layout/menu_toolbar"/>
-    <Button
-        android:id="@+id/btnGrabar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Grabar" />
 
-    <Button
-        android:id="@+id/btnReproducir"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reproducir" />
+        android:paddingTop="200px"
+        android:paddingBottom="80px"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnGrabar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onGrabarAction"
+            android:src="@drawable/ic_micro"
+            android:layout_marginEnd="16dp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnReproducir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onPausarAction"
+            android:src="@drawable/ic_pausa"
+            android:layout_marginEnd="16dp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnPausar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onReproducirAction"
+            android:src="@drawable/ic_play" />
 
-    <Button
-        android:id="@+id/btnPausar"
+    </LinearLayout>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="pausar" />
+        android:gravity="center"
+        android:text="@string/volumen"
+       />
+    <SeekBar
+        android:id="@+id/seekBarVolumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="80px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/frecuencia"
+        />
+    <SeekBar
+        android:id="@+id/seekBarFrecuencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:progress="10" />
 
 </LinearLayout>
+
+
+
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"

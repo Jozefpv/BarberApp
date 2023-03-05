@@ -1,5 +1,6 @@
 package com.example.barberapp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -49,7 +50,18 @@ public class ReservasActivity extends AppCompatActivity {
         listaContactos.setAdapter(adapter);
 
     }
+    private void showAboutDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(getLayoutInflater().inflate(R.layout.dialogo, null))
+                .setPositiveButton(android.R.string.ok, null);
 
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void clickAcerca(View view){
+        showAboutDialog();
+    }
 
     public void ClickMenu(View view){
         MenuActivity.openDrawer(drawerLayout);

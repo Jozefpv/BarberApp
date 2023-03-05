@@ -1,4 +1,4 @@
-package com.example.barberapp;
+package com.example.barberapp.adaptadores;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.barberapp.CardActivity;
+import com.example.barberapp.DatosPeinado;
+import com.example.barberapp.R;
 
 public class PeinadoAdapter extends RecyclerView.Adapter<PeinadoAdapter.ViewHolder> {
     DatosPeinado[] datosPeinado;

@@ -34,6 +34,18 @@ public class MenuActivity extends AppCompatActivity {
     public static void openDrawer(DrawerLayout drawerLayout){
         drawerLayout.openDrawer(GravityCompat.START);
     }
+    private void showAboutDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setView(getLayoutInflater().inflate(R.layout.dialogo, null))
+                .setPositiveButton(android.R.string.ok, null);
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void clickAcerca(View view){
+        showAboutDialog();
+    }
 
     public void ClickLogo(View view){
         closeDrawer(drawerLayout);
@@ -65,13 +77,11 @@ public class MenuActivity extends AppCompatActivity {
         redirecActivity(this, AjustesActivity.class);
     }
 
-    public void clickLogout(View view){
+    public void ClickLogout(View view){
         logout(this);
     }
 
     public static void redirecActivity(Activity activity, Class Class) {
-        //Intent intent = new Intent(activity,Class);
-        //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         activity.startActivity(new Intent(activity,Class){{
             setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         }});
